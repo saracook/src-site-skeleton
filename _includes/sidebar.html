@@ -1,0 +1,21 @@
+<p class="annotation">sidebar.html</p>
+{% if page.toc == true %}
+<p class="annotation">sidebar-toc.html</p>
+{% include sidebar-toc.html %}
+{% endif %}
+
+{% if page.seealso != false %}
+<p class="annotation">sidebar-see-also.html, if page.seealso !=false</p>
+<p class="annotation">See Also is based on settings in navigation.yaml - results are pulled from siblings. If the page has no siblings, this box will be suppressed even if it has not been explicitly turned off.</p>
+{% include sidebar-see-also.html %}
+{% endif %}
+
+{% if page.home == true %}
+<p class="annotation">sidebar-box.html, if page.home == true</p>
+{% include sidebar-box.html title="sidebar-box.html" content="<ul><li>For layout home. <br />Contents can include html</li></ul>" %}
+{% endif %}
+
+{% if page.home != true %}
+<p class="annotation">sidebar-box.html, if page.home != true</p>
+{% include sidebar-box.html title="sidebar-box.html" content="<ul><li>Contents can include html</li></ul>" %}
+{% endif %}
