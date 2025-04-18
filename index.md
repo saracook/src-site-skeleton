@@ -20,11 +20,8 @@ hero-headline: "hero-headline"
 
 Home page content
 
-<p class="annotation">env = {{ jekyll.environment }}</p>
-
 {% include callout.html type="primary" content="callout.html" %}
 
-<p class="annotation">The boxes below only take content as a variable</p>
 {% include important.html content="important.html" %}
 
 {% include warning.html content="warning.html" %}
