@@ -14,10 +14,8 @@
       url: "/about"
     - title: "Custom"
       url: "/custom-pages/"
-    - title: "item2"
-      url: "/fake"
-    - title: "item3"
-      url: "/fake"
+    - title: "Code Demo Page"
+      url: "/code"
 
 - title: "No Sub-Menu"
   url: "/fake"

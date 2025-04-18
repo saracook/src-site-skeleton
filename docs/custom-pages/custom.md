@@ -6,9 +6,9 @@ toc: true
 customjs: /assets/js/connect.js
 customcss: /assets/css/demo-custom.css
 ---
-<p class="annotation">This page calls a custom js file (via customjs: in front matter) to control the auto-fill feature</p>
 
-<p class="annotation">This page calls a custom css file (via customcss: in front matter) which is changing the color of the boxes in the sidebar for this page only</p>
+
+
 
 ## Connect to your VM/Project
 

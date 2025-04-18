@@ -5,9 +5,9 @@ output: web
 
 title: "SRC Sample Jekyll"
 image: "/assets/src-site-image.png"
-site_title: SRC Sample Jekyll
+site_title: SRC Jekyll Skeleton
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
-baseurl: '/src-demo'
+baseurl: '/src-site-skeleton'
 owner:
   # The owner name must be provided.
   name: "Stanford Research Computing"
@@ -57,7 +57,6 @@ exclude:
 timezone: America/Los_Angeles
 encoding: utf-8
 safe: true
-# theme: src
 
 # This is the text in the top logo. For the value of modifier_class, see
 # https://decanter.stanford.edu/component/identity-lockup/

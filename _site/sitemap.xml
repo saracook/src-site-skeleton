@@ -8,10 +8,10 @@
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/custom-pages/</loc>
+<loc>http://localhost:4000/code</loc>
 </url>
 <url>
-<loc>http://localhost:4000/fake</loc>
+<loc>http://localhost:4000/custom-pages/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
